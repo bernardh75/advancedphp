@@ -10,6 +10,9 @@ class Container
 			'controller.homepage' => function(){
 				return new \App\Front\Controller\HomepageController();
 			},
+			'controller.country' => function () {
+                return new \App\Front\Controller\CountryController();
+            },
 			'controller.not.found' => function(){
 				return new \App\Front\Controller\NotFoundController();
 			}
